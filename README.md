@@ -1,2 +1,2 @@
 # 2439905184.github.io
-自制网页
+这是纯html自制的新网站 就网站在easypage
