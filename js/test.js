@@ -1,5 +1,5 @@
 function (){var star=document.getElementById("fallen star")}
 function Seve(){
     var seve=document.getEelmentById("backgroundmusic")
-    seve.src=/music/TheFatRat - Time Lapse.mp3
+    seve.src=/music/Time Lapse.mp3
     seve.play()}
