@@ -286,12 +286,26 @@
     </div>
     <div>
       <!--仿nanoloop-->
-      <div class="nine-block"></div><div class="nine-block"></div><div class="nine-block"></div> 
-      <div class="nine-block"></div> 
-      <div class="nine-block"></div> <div class="nine-block"></div> <div class="nine-block"></div> <div class="nine-block"></div> 
-      <div class="nine-block"></div> 
+      <div><div class="master-partten">1</div><div class="master-partten">2</div><div class="master-partten">3</div><div class="master-partten">4</div><div class="master-partten">5</div><div class="master-partten">6</div><div class="master-partten">7</div><div class="master-partten">8</div></div>
+        <div class="nine-block"> </div><div class="nine-block"> </div><div class="nine-block"></div> 
+        <div class="nine-block"></div> 
+        <div class="nine-block"></div> <div class="nine-block"></div> <div class="nine-block"></div> <div class="nine-block"></div> 
+        <div class="nine-block"></div> 
+      <!--音量、音调、ADSR等控制-->
+      <div>
+        <div class="ADSR">音量</div> <div class="ADSR">A</div> <div class="ADSR">D</div> <div class="ADSR">S</div> <div class="ADSR">Pitch</div>
+        <div class="bottom-partten">a</div> <div class="bottom-partten">b</div> <div class="bottom-partten">c</div> <div class="bottom-partten">d</div><div class="bottom-partten">e</div><div class="bottom-partten">f</div><div class="bottom-partten">g</div><div class="bottom-partten">h</div>
+      </div>
     </div><style>
-    .nine-block{width:20px;height:20px;display:inline-block;}
+    /*九宫格主音符编辑区*/
+    .nine-block{
+      width:20px;height:20px;
+      display:inline-block;}
+    /*顶部总片段*/
+    .master-partten{
+                display:inline-block;
+                width:20px;height:20px;
+    }
     </style>
     <script>
       function summon(){
