@@ -10,3 +10,15 @@ body:hover{
       cur:url("https://2439905184.github.io/cur鼠标图片素材/Alternative2.cur"),auto;}
 img:hover{
       background:rgba(0,0,0,0.1);}
+#square{
+      width:50px;
+      height:50px;
+      animation:square 20s infinite;}
+#circle{
+      width:40px;
+      height:40px;animation:circle 20s infinite;}
+@keyframes animation,circle{
+      to{
+            transform:rotate(360deg);)
+      }
+}
