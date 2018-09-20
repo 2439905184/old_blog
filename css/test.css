@@ -1,24 +1,79 @@
-audio{
-      position:fixed;
-      top:0;
-      display:block;
-    }
-*{
-  border:1px solid red;
+/*导航栏链接样式*/
+.mainlink {
+	display: inline-block;
+	width: 50px;
+	height: 60px;
+	background: rgb(225,115,115);
+	align: center;
 }
-body:hover{
-      cur:url("https://2439905184.github.io/cur鼠标图片素材/Alternative2.cur"),auto;}
-img:hover{
-      background:rgba(0,0,0,0.1);}
-#square{
-      width:50px;
-      height:50px;
-      animation:square 20s infinite;}
-#circle{
-      width:40px;
-      height:40px;animation:circle 20s infinite;}
-@keyframes animation,circle{
-      to{
-            transform:rotate(360deg);)
-      }
+.mainlink:hover {
+	background: rgba(0,0,0,0.5);
+	animation: t 2s;
+	animation-fill-mode: forwards;
+}
+ @keyframes t {
+ 20% {
+ transform:rotate(45deg);
+}
+ 75% {
+transform:rotateY(180deg);
+}
+}
+/*标题属性*/
+h1 {
+	border-bottom: 1px solid green;
+	display: block;
+}
+/*导航栏二级菜单样式*/
+.hide {
+	display: inline-block;
+}
+span {
+	border: 1px solid;
+}
+.inline {
+	display: inline-block;
+	background: orange;
+	cursor: pointer;
+}
+.inline:hover {
+	background: rgba(0,0,0,0.5);
+}
+#test {
+	width: 500px;
+}
+.new:hover {
+	animation: t 2s;
+}
+ol li {
+	cursor: pointer;
+}
+li:hover {
+	text-decoration: underline;
+}
+audio {
+ position:fixed;
+ top:0;
+ display:block;
+}
+/*全局边框调试属性设置*/
+* {
+	border: 1px solid red;
+}
+body:hover {
+	cur: url("https://2439905184.github.io/cur鼠标图片素材/Alternative2.cur"), auto;
+}
+img:hover {
+	background: rgba(0,0,0,0.1);
+}
+#circle {
+	width: 40px;
+	height: 40px;
+	animation: circle 20s infinite;
+}
+@keyframes animation, circle {
+ to {
+ transform:rotate(360deg);
+)
+}
 }
