@@ -1,0 +1,22 @@
+div{
+	width:200px;
+	height:200px;
+	display: inline-block;
+	border:2.5px #C89596;
+	border-style: solid;
+	background: #AAB6D4;
+}
+span{
+	background-color: #438eff;
+	border-radius: 50%;
+	display: inline-block;
+	width: 12px;
+	height: 12px
+}
+#project-name{
+	color: blue;
+	
+}
+p{
+	margin-top: 5px;;
+}
