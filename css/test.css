@@ -55,7 +55,17 @@ audio {
  position:fixed;
  top:0;
  display:block;
-}
+}			
+/*----------彩虹猫动图---img属性-------------------------------------------*/
+          #nay-cat{
+            position:fixed;
+            top:0;
+            z-index:0;
+		    background-color: rgb(225,225,225,0.5);
+            animation:fly 20s infinite;
+          @keyframes fly{
+            from{margin-left:0px;}
+            to{margin-left:800px;}}
 /*全局边框调试属性设置*/
 * {
 	border: 1px solid red;
