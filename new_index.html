@@ -1,3 +1,4 @@
+<!doctype html>
 <html>
 <head>
 <meta charset="utf-8"/>
@@ -5,10 +6,21 @@
 <body><!--设置我的背景图片-->
 <div id="me">
 	<!--头像-->
-	<a href=""><<img src=""/></a>
-	<a>笔记</a>
+	<a href=""><img src="f" alt="ssd"/></a>
+	<br/>
+	<!--音乐按钮-->
+	<button id="bgm">music</button>
+	<a href="">笔记</a>
+	<br/>
+	<a></a>
 </div>
-
+	<audio id="audio" src="http://music.163.com/song/media/outer/url?id=30064291.mp3 " controls="controls"></audio>
 <div></div>
-</body>
+	</body><script>
+	var bgm=document.getElementById("bgm")
+	bgm.onclick=bgm()
+	function bgm(){
+		document.getElementById("audio").play()
+	}
+	</script>
 </html>
