@@ -27,11 +27,20 @@
 			<p><a>我的专栏</a></p><!--这里写bilibili专栏地址-->
 			<p><a href="">优秀github开源项目</a></p>
 		</div>
+		<canvas id="canvas" width="1000" height="800"></canvas>
+
+
+<!---------------------这里是bgm的js控制代码-------------------->
 		<script>
  var bgm=document.getElementById("bgm")
  bgm.onclick=function(){ document.getElementById("audio").play()
  }
- 
 		</script>
+<!---------------------这里是canvas的js控制代码-------------------->
+<script>
+	var c=document.getElementById("canvas")
+	var ctx=c.getContext("2d")
+        ctx.fillRect(0,0,200,200)
+		</script>	
 	</body>
 </html>
