@@ -1,25 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8"/>
-</head>
-<body><!--设置我的背景图片-->
-<div id="me">
-	<!--头像-->
-	<a href=""><img src="f" alt="ssd"/></a>
-	<br/>
-	<!--音乐按钮-->
-	<button id="bgm">music</button>
-	<a href="">笔记</a>
-	<br/>
-	<a></a>
-</div>
-	<audio id="audio" src="http://music.163.com/song/media/outer/url?id=30064291.mp3 " controls="controls"></audio>
-<div></div>
+	<head>
+		<meta charset="utf-8" />
+
+	</head>
+	<body>
+		<!--设置我的背景图片-->
+		<div id="me">
+			<!--头像-->
+			<a href="">
+				<img src="f" alt="ssd" />
+
+			</a>
+			<br />
+
+			<!--音乐按钮-->
+			<button id="bgm">music</button>
+			<a href="">笔记</a>
+			<br />
+
+			<a></a>
+		</div>
+		<audio id="audio" src="http://music.163.com/song/media/outer/url?id=30064291.mp3 " controls="controls"></audio>
+		<div>
+			<p><a href="2439905184.github.io/index.html">旧主页</a></p>
+			<p><a>我的专栏</a></p><!--这里写bilibili专栏地址-->
+			<p><a href="">优秀github开源项目</a></p>
+		</div>
+		<script>
+ var bgm=document.getElementById("bgm")
+ bgm.onclick=function(){ document.getElementById("audio").play()
+ }
+ 
+		</script>
 	</body>
-	<script>
-	var bgm=document.getElementById("bgm")
-	bgm.onclick=function(){	document.getElementById("audio").play()
-	}
-	</script>
 </html>
