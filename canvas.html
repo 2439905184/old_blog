@@ -7,16 +7,15 @@
 var c=document.getElementById('canvas')
 var pen=c.getContext('2d')
 var x=0;
-  function clear(){pen.clearRect(0,0,400,400)}
 function draw()
 {
 pen.fillRect(x,0,50,50)
 x+=10
-  setTimeout(clear,500)
-  if(x>100){
-  x=0
-  }
 }
+    function clear()
+  {
+    pen.clearRect(0,0,400,400)
+  }
 setInterval(draw,500)
 </script>
 </html>
