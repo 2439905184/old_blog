@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"></head>
+<body>
+<p>注意：此教程以forge1.12.2版本为例</p></b></font>
+<p>forge的事件系统允许玩家自定义事件</p>
+<p>forge的事件系统是EVENT_BUS</p>
+<p>forgeEVENT_BUS的注册方法：MinecraftForge.EVENT_BUS.register</p>
+<p>forge使用<font color="red">@SubscribeEvent</font>注释来获取用户的事件</p>
+<p>更多有关forgeEVENT_BUS的详细介绍：</p><a href="http://blog.hakugyokurou.net/?p=225">基于FML的MinecraftMod制作教程(1) - Forge的事件系统</a>
+<p>forge事件列表</p>
+<ul>
+<li>PlayInteractEvent 玩家操作事件</li>
+<li>PlayerWakeUpEvent 玩家起床事件</li>
+<li>PlayerFallEvent 玩家摔落事件</li>
+
+</ul>
+<code>代码示例<br/>
+@SubscribeEvent<br/>
+public void test(PlayWakeUpEvent event)<br/>
+{<br/>
+    System.out.println("I am sleeping")<br/>
+}<br/>
+//这个事件会在玩家起床的时候触发
+</code>
+</body>
+</html>
