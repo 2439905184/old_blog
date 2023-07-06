@@ -8,16 +8,16 @@
 }
 .mainlink:hover {
 	background: rgba(0,0,0,0.5);
-	animation: t 2s;
+	/* animation: t 2s; */
 	animation-fill-mode: forwards;
 }
- @keyframes t {
+ /* @keyframes t {
  20% {
  transform:rotate(45deg);
 }
  75% {
 transform:rotateY(180deg);
-}
+} */
 }
 /*标题属性*/
 h1 {
